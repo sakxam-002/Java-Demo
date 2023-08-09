@@ -33,7 +33,8 @@ public class GridPaneDemo extends Application {
         gridpane.add(button4, 3 ,1, 1,1);
         gridpane.add(button5, 3 ,0, 1,1);
 
-
+        gridpane.setHgap(5);
+        gridpane.setVgap(5);
 
         Scene scene = new Scene(gridpane, 600, 400);
         stage.setScene(scene);
